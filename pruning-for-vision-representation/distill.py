@@ -10,8 +10,6 @@ from torchvision.models import get_model, get_weight
 
 import utils
 from train import create_lr_scheduler, create_optimizer, evaluate, load_data, set_seed
-import sys
-sys.path.insert(0, "/home/ucu/Dev/igor/pruning")
 from explainations_evaluation_metrics import gradCAM, guided_gradCAM, evaluate_single
 from glob import glob
 from PIL import Image

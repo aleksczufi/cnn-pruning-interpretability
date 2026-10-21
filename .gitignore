@@ -1,0 +1,12 @@
+*.ckpt
+.vscode
+__pycache__/
+*.pt
+data
+MNIST
+lightning_logs
+tb_logs
+imagenette2*
+*.pth
+*wandb*
+*.csv*
